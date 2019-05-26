@@ -1,0 +1,18 @@
+{
+  "name": "generateproject_sssss",
+  "version": "1.0.0",
+  "description": "FiveEses project generator (cribbed quite heavily [almost entirely] from Harriet Ryder's tutorial on medium.com -- https://medium.com/northcoders/creating-a-project-generator-with-node-29e13b3cd309 ). The templates are my own devising.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .\\index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FiveEses <fiveeses@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "bin": {
+    "5sgen": "./index.js"
+  }
+}
